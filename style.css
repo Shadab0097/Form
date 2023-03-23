@@ -1,0 +1,65 @@
+#form{
+    border: 1px solid rgb(10, 10, 10);
+}
+
+
+#dropdown{
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+ #cm{
+    border: 1px solid black;
+    width: 180px;
+    height: 30px;
+}
+/* 
+#txt{
+    height: 250px;
+    width: 650px;
+} */
+
+h1{
+    width: 100%;
+    background-color: gray;
+    border-radius: 20px;
+   
+}
+
+.stl{
+    border: 2px solid black;
+    height: 30px;
+    width: 320px;
+}
+
+.myfile{
+    height: 25px;
+}
+.wdth{
+    width: 500px;
+    height:30px ;
+}
+
+#smbt{
+    /* display: flex; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#faculty{
+    font-size: 20px;
+    background-color: rgb(158, 153, 153);
+    border-radius: 10px;
+}
+.wdth1{
+    width: 100px;
+}
+#faculty1{
+    font-size: 30px;
+    background-color: rgb(153, 147, 147);
+    border-radius: 10px;
+}

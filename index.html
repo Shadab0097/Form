@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+   
+    
+<script>tinymce.init({selector:'textarea'});</script>
+   
+</head>
+
+<body>
+    <div id="dropdown">
+        <h2> Form</h2>
+        <form id="form">
+            <br>
+            
+            <div id="menu">
+                <!-- <lable for="cm">Select Category</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Select Category</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+                </select>
+
+                <!-- <lable for="">Select Sub Category</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Select Sub Category</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+                </select>
+
+                <!-- <lable for="">Select University</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Select University</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+                </select>
+            </div><br><br>
+
+            <div id="menu">
+                <!-- <lable for="cn">Course Name</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Course Name</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+                </select>
+
+                <!-- <lable for="">Course Duration</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Course Duration</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+
+
+                </select>
+
+                <!-- <lable for="">Course Fee</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Course Fee</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+                </select>
+            </div><br><br>
+
+
+            <div id="menu">
+                <!-- <lable for="">Admission Status</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Admission Statu</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+                </select>
+
+                <!-- <lable for="">Admission Start Date</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Admission Start Date</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+                </select>
+
+                <!-- <lable for="">Admission End Date</lable> -->
+                <select name="" id="cm">
+                    <option value="cars">Admission End Date</option>
+                    <option value="cars">car</option>
+                    <option value="volvo">volvo</option>
+                    <option value="ms">ms</option>
+                </select>
+            </div> <br><br>
+
+            <h1>Programe Details</h1>
+
+            <textarea id="textarea" rows="15" cols="140" placeholder="minimum 300 words">
+            </textarea>
+
+            <h1>Syllabus</h1>
+
+            <textarea id="textarea" rows="15" cols="140" placeholder="minimum 300 words">
+            </textarea>
+
+            <h1>Faculty</h1>
+            <div id="fact">
+
+                <span id="smbt">
+                    <input type="text" class="name stl" placeholder="Name">
+                    <input type="text" class="Profession stl" placeholder="Profession">
+                    <input type="text" class="about stl" placeholder="About">
+                </span><br><br>
+                <input type="file" class="myfile " name="filename">
+                <input type="submit" value="Add Faculty" id="faculty">
+
+            </div>
+            <div id="fact">
+                <h1>Certificate</h1>
+
+                <input type="text" class="stl wdth" placeholder="Certificate Name"><br><br>
+                <input type="file" class="myfile " name="filename">
+                <input type="submit" value="Add Certificate" id="faculty">
+
+            </div>
+
+            <h1>Fee Details</h1>
+            <input type="number" class="stl wdth1" placeholder="Total Fees">
+            <input type="text" class="stl wdth2" placeholder="Fee Per Year">
+            <br><br><br>
+
+            <input type="submit" value=" Final Submit" id="faculty1">
+
+
+        </form>
+    </div>
+</body>
+
+</html>
